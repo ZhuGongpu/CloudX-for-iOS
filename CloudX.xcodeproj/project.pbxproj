@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD882D081A17762E0089EF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882D071A17762E0089EF76 /* main.m */; };
+		BD882D0B1A17762E0089EF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882D0A1A17762E0089EF76 /* AppDelegate.m */; };
+		BD882D0E1A17762E0089EF76 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882D0D1A17762E0089EF76 /* FirstViewController.m */; };
+		BD882D111A17762E0089EF76 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882D101A17762E0089EF76 /* SecondViewController.m */; };
+		BD882D141A17762E0089EF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD882D121A17762E0089EF76 /* Main.storyboard */; };
+		BD882D161A17762E0089EF76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD882D151A17762E0089EF76 /* Images.xcassets */; };
+		BD882D191A17762E0089EF76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD882D171A17762E0089EF76 /* LaunchScreen.xib */; };
+		BD882D251A17762F0089EF76 /* CloudXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882D241A17762F0089EF76 /* CloudXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD882D1F1A17762F0089EF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD882CFA1A17762E0089EF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD882D011A17762E0089EF76;
+			remoteInfo = CloudX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD882D021A17762E0089EF76 /* CloudX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD882D061A17762E0089EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD882D071A17762E0089EF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD882D091A17762E0089EF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD882D0A1A17762E0089EF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD882D0C1A17762E0089EF76 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BD882D0D1A17762E0089EF76 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BD882D0F1A17762E0089EF76 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD882D101A17762E0089EF76 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD882D131A17762E0089EF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD882D151A17762E0089EF76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD882D181A17762E0089EF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD882D1E1A17762F0089EF76 /* CloudXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD882D231A17762F0089EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD882D241A17762F0089EF76 /* CloudXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD882CFF1A17762E0089EF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882D1B1A17762F0089EF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD882CF91A17762E0089EF76 = {
+			isa = PBXGroup;
+			children = (
+				BD882D041A17762E0089EF76 /* CloudX */,
+				BD882D211A17762F0089EF76 /* CloudXTests */,
+				BD882D031A17762E0089EF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD882D031A17762E0089EF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD882D021A17762E0089EF76 /* CloudX.app */,
+				BD882D1E1A17762F0089EF76 /* CloudXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD882D041A17762E0089EF76 /* CloudX */ = {
+			isa = PBXGroup;
+			children = (
+				BD882D0C1A17762E0089EF76 /* FirstViewController.h */,
+				BD882D0D1A17762E0089EF76 /* FirstViewController.m */,
+				BD882D0F1A17762E0089EF76 /* SecondViewController.h */,
+				BD882D101A17762E0089EF76 /* SecondViewController.m */,
+				BD882D121A17762E0089EF76 /* Main.storyboard */,
+				BD882D051A17762E0089EF76 /* Supporting Files */,
+			);
+			path = CloudX;
+			sourceTree = "<group>";
+		};
+		BD882D051A17762E0089EF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD882D151A17762E0089EF76 /* Images.xcassets */,
+				BD882D171A17762E0089EF76 /* LaunchScreen.xib */,
+				BD882D091A17762E0089EF76 /* AppDelegate.h */,
+				BD882D0A1A17762E0089EF76 /* AppDelegate.m */,
+				BD882D061A17762E0089EF76 /* Info.plist */,
+				BD882D071A17762E0089EF76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD882D211A17762F0089EF76 /* CloudXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD882D241A17762F0089EF76 /* CloudXTests.m */,
+				BD882D221A17762F0089EF76 /* Supporting Files */,
+			);
+			path = CloudXTests;
+			sourceTree = "<group>";
+		};
+		BD882D221A17762F0089EF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD882D231A17762F0089EF76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD882D011A17762E0089EF76 /* CloudX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD882D281A17762F0089EF76 /* Build configuration list for PBXNativeTarget "CloudX" */;
+			buildPhases = (
+				BD882CFE1A17762E0089EF76 /* Sources */,
+				BD882CFF1A17762E0089EF76 /* Frameworks */,
+				BD882D001A17762E0089EF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudX;
+			productName = CloudX;
+			productReference = BD882D021A17762E0089EF76 /* CloudX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD882D1D1A17762F0089EF76 /* CloudXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD882D2B1A17762F0089EF76 /* Build configuration list for PBXNativeTarget "CloudXTests" */;
+			buildPhases = (
+				BD882D1A1A17762F0089EF76 /* Sources */,
+				BD882D1B1A17762F0089EF76 /* Frameworks */,
+				BD882D1C1A17762F0089EF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD882D201A17762F0089EF76 /* PBXTargetDependency */,
+			);
+			name = CloudXTests;
+			productName = CloudXTests;
+			productReference = BD882D1E1A17762F0089EF76 /* CloudXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD882CFA1A17762E0089EF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CloudX;
+				TargetAttributes = {
+					BD882D011A17762E0089EF76 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BD882D1D1A17762F0089EF76 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BD882D011A17762E0089EF76;
+					};
+				};
+			};
+			buildConfigurationList = BD882CFD1A17762E0089EF76 /* Build configuration list for PBXProject "CloudX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD882CF91A17762E0089EF76;
+			productRefGroup = BD882D031A17762E0089EF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD882D011A17762E0089EF76 /* CloudX */,
+				BD882D1D1A17762F0089EF76 /* CloudXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD882D001A17762E0089EF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882D141A17762E0089EF76 /* Main.storyboard in Resources */,
+				BD882D191A17762E0089EF76 /* LaunchScreen.xib in Resources */,
+				BD882D161A17762E0089EF76 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882D1C1A17762F0089EF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD882CFE1A17762E0089EF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882D111A17762E0089EF76 /* SecondViewController.m in Sources */,
+				BD882D0B1A17762E0089EF76 /* AppDelegate.m in Sources */,
+				BD882D0E1A17762E0089EF76 /* FirstViewController.m in Sources */,
+				BD882D081A17762E0089EF76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882D1A1A17762F0089EF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882D251A17762F0089EF76 /* CloudXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD882D201A17762F0089EF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD882D011A17762E0089EF76 /* CloudX */;
+			targetProxy = BD882D1F1A17762F0089EF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD882D121A17762E0089EF76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD882D131A17762E0089EF76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD882D171A17762E0089EF76 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD882D181A17762E0089EF76 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD882D261A17762F0089EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD882D271A17762F0089EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD882D291A17762F0089EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CloudX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD882D2A1A17762F0089EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CloudX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD882D2C1A17762F0089EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudX.app/CloudX";
+			};
+			name = Debug;
+		};
+		BD882D2D1A17762F0089EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudX.app/CloudX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD882CFD1A17762E0089EF76 /* Build configuration list for PBXProject "CloudX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882D261A17762F0089EF76 /* Debug */,
+				BD882D271A17762F0089EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD882D281A17762F0089EF76 /* Build configuration list for PBXNativeTarget "CloudX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882D291A17762F0089EF76 /* Debug */,
+				BD882D2A1A17762F0089EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD882D2B1A17762F0089EF76 /* Build configuration list for PBXNativeTarget "CloudXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882D2C1A17762F0089EF76 /* Debug */,
+				BD882D2D1A17762F0089EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD882CFA1A17762E0089EF76 /* Project object */;
+}
